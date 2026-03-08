@@ -10,6 +10,7 @@ WooCommerce Ready: Includes shop.php for handling e-commerce integrations.
 
 ## 📂 Project Structure
 
+```text
 ├── config/               # Build tool configurations and constants
 ├── includes/             # PHP Logic (Required by functions.php)
 │   ├── menus.php         # Navigation menu registrations
@@ -24,6 +25,7 @@ WooCommerce Ready: Includes shop.php for handling e-commerce integrations.
 ├── functions.php         # Main entry point for theme logic
 ├── index.php             # Main template file
 └── style.css             # Theme metadata and global styles
+````
 
 ## 🛠️ Installation
 Upload the theme folder to /wp-content/themes/.
