@@ -11,9 +11,3 @@ require_once get_template_directory() . '/config/theme-support.php';
 // Add menus 
 
 require_once get_template_directory() . '/config/menus.php';
-
-// Woocommerce functions 
-
-if ( class_exists( 'WooCommerce' ) ) {
-    require_once get_template_directory() . '/config/shop.php';
-}

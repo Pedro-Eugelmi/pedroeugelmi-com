@@ -1,0 +1,48 @@
+
+/* Variables 
+----------------- */
+
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #1fb8ff;
+}
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+body {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+.shadow {
+  box-shadow: 0 0 1rem var(--main-color);
+}
+
+.text-shadow {
+  text-shadow: 0 0 0.2rem var(--main-color);
+}
+
+.text-main {
+  color: var(--main-color);
+}
+
+.text-main-hover:hover {
+  color: var(--main-color) !important;
+}
+
+.text-main-hover:hover i {
+  color: inherit;
+}
+

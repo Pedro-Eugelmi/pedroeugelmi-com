@@ -1,8 +1,11 @@
+⚠️ Status: Work in Progress (WIP)
+
 # Custom WordPress Theme Boilerplate
+
+This theme serves as my personal website where I share my projects and professional activities. It is designed to showcase my skills, the work I'm involved in, and any relevant updates regarding my career.
 A modular, performance-focused WordPress starter theme designed for speed and scalability. This theme uses a clean separation of concerns, moving logic out of functions.php and into dedicated partials.
 
 ## 🚀 Key Features
-Modular Architecture: Logic is organized within the /includes directory to keep functions.php lightweight.
 
 Asset Minification: Optimized scripts/ and styles/ are minified into a production-ready /minified directory. Now includes tailwind.min.css as part of the styles.
 
